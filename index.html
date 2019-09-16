@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Портфолио верстальщика Корбут Анастасия</title>
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="main-wrapper">
+		<header class="header">
+			<div class="header__wrapper">
+				<div class="header__lang">
+					<a class="header__lang-link" href="index_en.html">English</a>
+				</div>
+				<nav class="main-nav__wrapper">	
+					<ul class="main-nav__list">
+						<li class="main-nav__item">
+							<a href="#skills" class="main-nav__link">Навыки</a>
+						</li>
+						<li class="main-nav__item">
+							<a href="#portfolio" class="main-nav__link">Портфолио</a>
+						</li>
+						<li class="main-nav__item">
+							<a href="#about" class="main-nav__link">Обо мне</a>
+						</li>
+						<li class="main-nav__item">
+							<a href="#contacts" class="main-nav__link">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header__welcome">
+				<div class="welcome__wrapper">
+					<div class="welcome__title">Верстка сайтов</div>
+					<div class="welcome__intro">Корбут Анастасия</div>
+					<button class="welcome__but">Написать</button>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="services">
+				<div class="services__wrapper">
+					<div class="main__title main__title--services">
+						<span>Навыки</span>
+					</div>
+					<div class="services__list">
+						<div class="services__item services__item--html">
+							<div class="services__item-title">
+								<span>HTML</span>
+							</div>
+							<div class="services__item-descr">Семантическая HTML-разметка страниц. Методология БЭМ.</div>
+						</div>
+						<div class="services__item services__item--css">
+							<div class="services__item-title">
+								<span>CSS</span>
+							</div>
+							<div class="services__item-descr">Резиновая и адаптивная верстка. Использование препроцессоров Sass и Less. Автоматизация сборки проекта с помощью Gulp.</div>
+						</div>
+						<div class="services__item services__item--js">
+							<div class="services__item-title">
+								<span>Javascript</span>
+							</div>
+							<div class="services__item-descr">Взаимодействие пользователя с элементами на странице: слайдер, форма, анимация.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="portfolio">
+				<div class="portfolio__wrapper">
+					<div class="main__title main__title--portfolio">
+						<span>Портфолио</span>
+					</div>
+					<div class="portfolio__list">
+						<div class="portfolio__item">
+							<a class="portfolio__item-link" href="lookshop/index.html" target="_blank">
+								<img src="img/lookshop.jpg" alt="lookshop" width="380" height="238">
+								<div class="portfolio__item-name">Lookshop e-store</div>
+							</a>
+						</div>
+						<div class="portfolio__item">
+							<a class="portfolio__item-link" href="pink/index.html" target="_blank">
+								<img src="img/pink.jpg" alt="pink" width="380" height="238">
+								<div class="portfolio__item-name">Pink project</div>
+							</a>
+						</div>
+						<div class="portfolio__item">
+							<a class="portfolio__item-link" href="shoes/index.html" target="_blank">
+								<img src="img/pink_shoes.jpg" alt="shoes" width="380" height="238">
+								<div class="portfolio__item-name">Shoes e-store</div>
+							</a>
+						</div>
+						<div class="portfolio__item">
+							<a class="portfolio__item-link" href="sedona/index.html" target="_blank">
+								<img src="img/sedona.jpg" alt="sedona" width="380" height="238">
+								<div class="portfolio__item-name">Sedona</div>
+							</a>
+						</div>
+						<div class="portfolio__item">
+							<a class="portfolio__item-link" href="e-store/store.html" target="_blank">
+								<img src="img/store.jpg" alt="e-store" width="380" height="238">
+								<div class="portfolio__item-name">E-store</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="about">
+				<div class="about__wrapper">
+					<div class="main__title main__title--about">
+						<span>ОБо мне</span>
+					</div>
+					<div class="about__info">
+						<div class="about__text"> Верстальщик с опытом работы более 3х лет, внимательна к мелочам, предоставляю чистый и красивый код. Буду рада с вами работать =)</div>
+						<div class="about__signature">Анастасия</div>
+					</div>
+				</div>
+			</div>
+			<div class="contact">
+				<div class="contact__wrapper">	
+					<div class="contact__details">
+						<div class="contact__title">Контакты</div>
+						<div class="contact__details-item">
+							<div class="contact__details-name">Почта</div>
+							<div class="contact__details-info">
+								<a class="contact__details-link contact__details-link--email" href="mailto:anast.korbut@gmail.com">anast.korbut@gmail.com</a>
+							</div>
+						</div>
+						<div class="contact__details-item">
+							<div class="contact__details-name">Skype</div>
+							<div class="contact__details-info">
+								<a class="contact__details-link contact__details-link--skype" href="skype:anast.kot">anast.kot</a>
+							</div>
+						</div>
+					</div>
+					<form class="contact__form" action="/echo" method="post">
+						<ul class="contact__pers-wrapper">
+							<li>
+								<label class="contact__pers-label" for="name">Имя:</label>
+								<input class="contact__pers-input" type="text" name="name" id="name">
+							</li>
+							<li>
+								<label class="contact__pers-label" for="email">Почта:</label>
+								<input class="contact__pers-input" type="email" name="email" id="email">
+							</li>
+						</ul>
+						<ul class="contact__message">
+							<li>
+								<label class="contact__pers-label" for="message">Ваше сообщение:</label>
+								<input class="contact__pers-input" type="text" name="message" id="message">
+							</li>
+						</ul>
+						<div class="input_flex">
+							<input class="welcome__but welcome__but--form" type="submit" value="Отправить">
+						</div>
+					</form>
+					<div class="contact__after-sending">
+						<p>Спасибо за сообщение. Я отвечу в самое ближайшее время.</p>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="page-footer">
+			<div class="page-footer__wrapper">
+				<section class="page-footer__info">
+					<span>2017 Korbut Anastasiya</span>
+				</section>
+				<section class="page-footer__social">
+					<div class="social-links">
+						<a href="https://www.facebook.com/anastasia.korbut.1" target="_blank"></a>
+					</div>
+				</section>			
+			</div>
+			<div class="up-button"></div>
+		</footer>
+	</div>
+	<script src="js/core.js"></script>
+	<script src="js/core_fx.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
