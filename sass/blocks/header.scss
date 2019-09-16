@@ -1,0 +1,47 @@
+.header {
+	background: url(../img/fon.png) no-repeat;
+	height: 711px;
+
+	&__lang {
+		margin-top: 33px;
+
+		&-link {
+			text-decoration: none;
+			color: #dfe1e3;
+			font-size: 14px;
+			font-weight: 700;
+
+			&:hover {
+				color: #f0f2f4;
+			}
+		}
+	}
+}
+
+.header__wrapper {
+	@include container;
+	@include flexbox(flex-start);
+	justify-content: space-between;
+	position: relative;
+}
+
+.header__welcome {
+	@include container;
+	@include flexbox(flex-start);
+	justify-content: center;
+	margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+
+	.header {
+		background: url(../img/fon_mb.png) no-repeat;
+		height: 620px;
+	}
+
+	.header__lang {
+		position: absolute;
+		top: -21px;
+		left: -11px;
+	}
+}

@@ -1,0 +1,44 @@
+.main-nav__list {
+	margin: 0;
+	padding: 0;
+	@include flexbox(flex-start);
+	list-style: none;
+}
+
+.main-nav__item {
+	margin-right: 60px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.main-nav__wrapper {
+	margin-top: 33px;
+}
+
+.main-nav__link {
+	text-decoration: none;
+	color: #dfe1e3;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 700;
+
+	&:hover {
+		color: #e9ebed;
+	}
+}
+
+@media (max-width: 500px) {
+
+	.main-nav__item {
+		margin-right: 0;
+	}
+
+	.main-nav__wrapper {
+		width: 100%;
+		margin-top: 43px;
+	}
+
+
+}

@@ -1,0 +1,27 @@
+.about {
+	background: #f5f6f8;
+	padding: 45px 0 70px 0;
+
+	&__wrapper {
+		@include container;
+	}
+
+	&__info {
+		margin-top: 65px;
+		text-align: center;
+		color: $dark-color;
+	}
+
+	&__text {
+		font-size: 24px;
+		line-height: 30px;
+		font-family: "Lora", "Times New Roman", serif;
+	}
+
+	&__signature {
+		font-size: 18px;
+		line-height: 24px;
+		font-family: "OpenSans", Arial, sans-serif;
+		margin-top: 45px;
+	}
+}

@@ -1,0 +1,18 @@
+@mixin flexbox($align) {
+	display: flex;
+	justify-content: space-between;
+	align-items: $align;
+}
+
+@mixin container() {
+	width: 90%;
+	margin: 0 auto;
+
+	@media (min-width: 768px) {
+		width: 90%;
+	}
+
+	@media (min-width: 1200px) {
+		width: 1190px;
+	}
+}
